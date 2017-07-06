@@ -1,0 +1,79 @@
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+*/
+.navegation {
+    background-color: rgba(255, 255, 255, 0.92);
+    position: fixed;
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    overflow-y: auto;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    text-transform: uppercase;
+    height: 10%;
+    margin:0;
+}
+
+.navegation h2 {
+    color: #515c6d;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 3%;
+    margin: 0%;
+    /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+
+
+.cover {
+    background: url("figs/IMG_5029.png") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    top: -75px;
+    width: 100%;
+}
+
+.cover h1 {
+    color: #FFF;
+    text-align: center;
+    font-family:'Roboto';
+}
+
+/*
+.cover-content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 280px;
+    width: 70%;
+}
+*/
+
+h2 {
+    color: #515c6d;
+    font-family: 'Roboto';
+    left-padding: 10%;
+}
+
+p {
+    font-family: 'Verdana';
+    text-align: justify;
+    line-height: 28px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: gray;
+}
+
+img {
+    display: inline-block;
+}
+
+
+
